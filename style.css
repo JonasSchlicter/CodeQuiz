@@ -1,0 +1,38 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 120%;
+  }
+
+button {
+    display: inline-block;
+    margin: 8px;
+    cursor: pointer;
+    font-size: 120%;
+    background-color: black;
+    border-radius: 4px;
+    padding: 1px, 6px;
+    color: white;
+    border: 0;
+    transition: background-color 0.1s;
+}
+
+button:hover {
+    background-color:darkgray;
+  }
+
+.main {
+    margin: 150px auto 0 auto;
+    max-width: 800px;
+}
+
+.start {
+    text-align: center;
+}
+
+.answers button {
+    display: block;
+  }
+
+.hidden {
+    display: none;
+}
